@@ -53,5 +53,27 @@ function serchFunction() {
         }
     ];
 
-    document.write(`$buses[2].from`);
+    
+    const fromin=document.getElementById("fromInput").Value.toUpperCase;
+    const ton=document.getElementById("toInput").Value.toUpperCase;
+    const jourd=document.getElementById("journeydate").Value;
+    // console.log(`bnbhn${fromin}`);
+    
+    // if () {
+    //     buses.forEach(bus => {
+    //       const busItem = document.createElement('div');
+    //       busItem.innerHTML = `
+    //         <p>From: ${bus.from}</p>
+    //         <p>To: ${bus.to}</p>
+    //         <p>Date: ${bus.date}</p>
+    //         <p>Time: ${bus.time}</p>
+    //         <p>Fare: ${bus.fare}</p>
+    //       `;
+    //       busList.appendChild(busItem);
+    //     });
+
+    
+    //   } else {
+    //     document.getElementById("").innerHTML = '...';
+    //   }
 }
